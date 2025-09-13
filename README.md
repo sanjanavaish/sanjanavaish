@@ -1,182 +1,80 @@
+# 👋 Hi, I'm Sanjana Vaish
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List Manager</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 400px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .task-input {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-        .task-input input[type="text"] {
-            width: 75%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .task-input button {
-            padding: 10px;
-            background-color: #4A90E2;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .task-input button:hover {
-            background-color: #357ABD;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background: #f9f9f9;
-            margin: 10px 0;
-            padding: 15px;
-            display: flex;
-            justify-content: space-between;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        .task-buttons {
-            display: flex;
-            gap: 10px;
-        }
-        .task-buttons button {
-            padding: 5px;
-            border: none;
-            cursor: pointer;
-            border-radius: 3px;
-        }
-        .edit {
-            background-color: #FFD700;
-            color: white;
-        }
-        .edit:hover {
-            background-color: #E6C200;
-        }
-        .delete {
-            background-color: #FF6347;
-            color: white;
-        }
-        .delete:hover {
-            background-color: #E65342;
-        }
-        .completed {
-            text-decoration: line-through;
-            color: gray;
-        }
-    </style>
-</head>
-<body>
+**React.js Frontend Developer • UI/UX Enthusiast • Web Performance Focused**
 
-<div class="container">
-    <h1>To-Do List</h1>
-    
-    <div class="task-input">
-        <input type="text" id="task-input" placeholder="Enter a new task">
-        <button onclick="addTask()">Add Task</button>
-    </div>
-    
-    <ul id="task-list"></ul>
-</div>
+Noida, India  
+📞 +91 9368188263  
+📧 [sanjanavaish213@gmail.com](mailto:sanjanavaish213@gmail.com)  
+[LinkedIn](https://linkedin.com/in/sanjana-vaish-35b169258) • [GitHub](https://github.com/sanjanavaish)
 
-<script>
-    // Add a new task
-    function addTask() {
-        const taskInput = document.getElementById('task-input');
-        const taskText = taskInput.value;
+---
 
-        if (taskText === '') {
-            alert('Please enter a task.');
-            return;
-        }
+## 👩‍💻 Summary
 
-        const taskList = document.getElementById('task-list');
+Creative and detail-oriented React.js Developer with strong skills in component-based architecture, responsive design, and frontend performance optimization. Proficient in state management, routing, API integration, and crafting accessible UIs. Passionate about modern web development and enhancing user experience using the latest tools and libraries.
 
-        // Create new list item
-        const listItem = document.createElement('li');
+---
 
-        // Create text element for task
-        const taskElement = document.createElement('span');
-        taskElement.innerText = taskText;
-        
-        // Create buttons for edit, complete, and delete
-        const editButton = document.createElement('button');
-        editButton.innerText = 'Edit';
-        editButton.classList.add('edit');
-        editButton.onclick = function() { editTask(taskElement); };
+## 🎓 Education
 
-        const completeButton = document.createElement('button');
-        completeButton.innerText = 'Complete';
-        completeButton.classList.add('complete');
-        completeButton.onclick = function() { toggleComplete(taskElement); };
+- **MCA, Invertis University** — Aug 2023 – Jul 2025
+- **BCA, Future Group of Institute, Bareilly** — Aug 2020 – Aug 2023
 
-        const deleteButton = document.createElement('button');
-        deleteButton.innerText = 'Delete';
-        deleteButton.classList.add('delete');
-        deleteButton.onclick = function() { deleteTask(listItem); };
+---
 
-        // Add text and buttons to the list item
-        listItem.appendChild(taskElement);
-        const buttonContainer = document.createElement('div');
-        buttonContainer.classList.add('task-buttons');
-        buttonContainer.appendChild(editButton);
-        buttonContainer.appendChild(completeButton);
-        buttonContainer.appendChild(deleteButton);
-        listItem.appendChild(buttonContainer);
+## 🛠️ Technical Skills
 
-        // Add list item to the task list
-        taskList.appendChild(listItem);
+- React.js (Hooks, JSX, Routing)
+- Redux, Context API (Basics)
+- HTML5, CSS3, JavaScript ES6+
+- Responsive UI Design (Bootstrap)
+- REST API Integration, Axios
+- Git, GitHub, VS Code
+- Node.js
+- MongoDB, MySQL
 
-        // Clear input
-        taskInput.value = '';
-    }
+---
 
-    // Edit a task
-    function editTask(taskElement) {
-        const newTaskText = prompt('Edit the task:', taskElement.innerText);
-        if (newTaskText !== null && newTaskText !== '') {
-            taskElement.innerText = newTaskText;
-        }
-    }
+## 💼 Internship Experience
 
-    // Mark a task as completed/incomplete
-    function toggleComplete(taskElement) {
-        taskElement.classList.toggle('completed');
-    }
+**React.js Intern (MERN Stack) — Remote**
+- Created reusable components with hooks and props
+- Implemented routing with React Router and integrated REST APIs
+- Built dynamic form systems and managed local state
 
-    // Delete a task
-    function deleteTask(listItem) {
-        if (confirm('Are you sure you want to delete this task?')) {
-            listItem.remove();
-        }
-    }
-</script>
+**Web Development Intern — Remote**
+- Developed mobile-friendly layouts using HTML, CSS, and Bootstrap
+- Learned UI/UX fundamentals and responsive design principles
 
-</body>
-</html>
+---
+
+## 🚀 Projects
+
+- [**Portfolio Website**](https://github.com/sanjanavaish/MyPortfolio) — Responsive personal portfolio with animated sections
+- [**Mini Dashboard App**](https://github.com/sanjanavaish/To-Do-List) — Dashboard fetching/displaying data with React hooks
+- [**Construction Firm Landing Page**](https://github.com/sanjanavaish/facebook) — Static landing page with grid and responsiveness
+
+---
+
+## 🏅 Certifications & Achievements
+
+- Finalist – Sardar Unity Trinity Quiz
+- Participant – Web-Ranger (Invertis University)
+- Member – Python Code Breaker Club
+
+---
+
+## 🌐 Languages
+
+- English (Proficient)
+- Hindi (Native)
+
+---
+
+## 🎨 Interests
+
+UI Design • Modern Web Frameworks • Documentation • Creative Coding
+
+---
+
+_Thanks for visiting my profile! Let's connect and build something awesome together._
