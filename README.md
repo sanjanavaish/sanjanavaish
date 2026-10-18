@@ -56,5 +56,5 @@
 ---
 
 <p align="center">
-  <sub>Thanks for visiting my profile. Let’s connect and build something thoughtful, useful, and accessible.</sub>
+  <sub>Thanks for visiting my profile. 💖 Let’s connect and build something thoughtful, useful, and accessible.</sub>
 </p>
