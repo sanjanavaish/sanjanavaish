@@ -30,15 +30,6 @@
   <img src="assets/projects-panel.svg?v=1" alt="Selected work: responsive interfaces, dashboards, and web experiments" width="100%" />
 </div>
 
-## Projects
-
-| Project | What it does | Tech stack |
-|---|---|---|
-| [Portfolio Website](https://github.com/sanjanavaish/MyPortfolio) | Responsive personal portfolio with animated sections | `React.js` · `CSS` |
-| [Mini Dashboard App](https://github.com/sanjanavaish/To-Do-List) | Dashboard to fetch and display data with React hooks | `React.js` · `Axios` |
-| [Construction Firm Landing Page](https://github.com/sanjanavaish/facebook) | Static landing page with a responsive layout | `HTML` · `Bootstrap` |
-| [YouTube Clone](https://github.com/sanjanavaish/You-Tube) | Simple YouTube-style interface | `React.js` |
-| [College Portal](https://github.com/sanjanavaish/snju) | College portal web application | `React.js` · `MongoDB` |
 
 ---
 
@@ -46,12 +37,7 @@
   <img src="assets/profile-details.svg?v=1" alt="Profile details: achievements, education, languages, and interests" width="100%" />
 </div>
 
-| Area | Details |
-|---|---|
-| **Recognition & communities** | **Finalist** — Sardar Unity Trinity Quiz<br>**Participant** — Web-Ranger<br>**Member** — Python Code Breaker Club |
-| **Education** | **MCA**, Invertis University — Aug 2023 to Jul 2025<br>**BCA**, Future Group of Institute, Bareilly — Aug 2020 to Aug 2023 |
-| **Languages** | English — Proficient · Hindi — Native |
-| **Interests** | UI design · Modern web frameworks · Documentation · Creative coding |
+
 
 ---
 
